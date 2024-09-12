@@ -4,13 +4,13 @@
 This project implements a Retrieval-Augmented Generation (RAG) system using the LLaMA 3 model. The system combines retrieval-based and generation-based approaches to provide accurate and contextually relevant responses from PDF files. The GUI is deployed using Streamlit and ngrok.
 
 ## Features
-- **Retrieval-Augmented Generation**: Combines retrieval and generation for improved response accuracy.
-- **LLaMA 3 Model**: Utilizes the LLaMA 3 model for natural language understanding and generation.
-- **PDF Support**: Extracts and processes information from PDF files.
-- **Scalable**: Designed to handle large datasets and provide fast responses.
-- **Configurable**: Easily configurable to suit different use cases.
-- **Streamlit GUI**: User-friendly interface for interacting with the system.
-- **ngrok Integration**: Easily expose the Streamlit app to the web.
+  - **Retrieval-Augmented Generation**: Combines retrieval and generation for improved response accuracy.
+  - **LLaMA 3 Model**: Utilizes the LLaMA 3 model for natural language understanding and generation.
+  - **PDF Support**: Extracts and processes information from PDF files.
+  - **Scalable**: Designed to handle large datasets and provide fast responses.
+  - **Configurable**: Easily configurable to suit different use cases.
+  - **Streamlit GUI**: User-friendly interface for interacting with the system.
+  - **ngrok Integration**: Easily expose the Streamlit app to the web.
 
 ## Installation
 To install the project, follow these steps:
@@ -57,4 +57,4 @@ To use the RAG system, follow these steps in your Colab notebook:
     The tunnel URL for the chatbot GUI will be available at the console.
 
 ## Demonstration
-![gui](./media/rag_chatbot_gui.png)
+![gui](./media/chatbot_gui.png)
