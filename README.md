@@ -35,7 +35,7 @@ To install the project, follow these steps:
     !curl https://ollama.ai/install.sh | sh
     ```
 
-5. **Start the `ollama` Service and pull `llama3` and `nomic-embed-text`**:
+5. Start the `ollama` service and pull `llama3` and `nomic-embed-text`:
     ```python
     !ollama serve > rocama.log 2>&1 &
     !ollama pull llama3 & ollama pull nomic-embed-text
@@ -46,7 +46,7 @@ To use the RAG system, follow these steps in your Colab notebook:
 
 1. **Set the NGROK_AUTH_KEY**:
     - Navigate to `Secrets` > `+ Add new secret`.
-    - Add your own ngrok authtoken as an environment variable `NGROK_AUTH_KEY`.
+    - Add your own ngrok authtoken as an environment variable: `NGROK_AUTH_KEY`.
 
 2. **Deploy the Streamlit App**:
     ```python
