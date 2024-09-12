@@ -30,6 +30,17 @@ To install the project, follow these steps:
     !pip install --upgrade --quiet langchain langchain_community pdfplumber chromadb tqdm streamlit ollama pyngrok
     ```
 
+4. Install `ollama`:
+    ```python
+    !curl https://ollama.ai/install.sh | sh
+    ```
+
+5. **Start the `ollama` Service and pull `llama3` and `nomic-embed-text`**:
+    ```python
+    !ollama serve > rocama.log 2>&1 &
+    !ollama pull llama3 & ollama pull nomic-embed-text
+    ```
+
 ## Usage
 To use the RAG system, follow these steps in your Colab notebook:
 
