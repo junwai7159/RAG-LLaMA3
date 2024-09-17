@@ -1,11 +1,11 @@
-# RAG Based on LLaMa 3
+# RAG Based on LLaMa 3.1
 
 ## Description
-This project implements a Retrieval-Augmented Generation (RAG) system using the LLaMA 3 model. The system combines retrieval-based and generation-based approaches to provide accurate and contextually relevant responses from PDF files. The GUI is deployed using Streamlit and ngrok.
+This project implements a Retrieval-Augmented Generation (RAG) system using the LLaMA 3.1 model. The system combines retrieval-based and generation-based approaches to provide accurate and contextually relevant responses from PDF files. The GUI is deployed using Streamlit and ngrok.
 
 ## Features
   - **Retrieval-Augmented Generation**: Combines retrieval and generation for improved response accuracy.
-  - **LLaMA 3 Model**: Utilizes the LLaMA 3 model for natural language understanding and generation.
+  - **LLaMA 3.1 Model**: Utilizes the LLaMA 3.1 model for natural language understanding and generation.
   - **PDF Support**: Extracts and processes information from PDF files.
   - **Scalable**: Designed to handle large datasets and provide fast responses.
   - **Configurable**: Easily configurable to suit different use cases.
@@ -38,7 +38,7 @@ To install the project, follow these steps:
 5. Start the `ollama` service and pull `llama3` and `nomic-embed-text`:
     ```python
     !ollama serve > rocama.log 2>&1 &
-    !ollama pull llama3 & ollama pull nomic-embed-text
+    !ollama pull llama3.1 & ollama pull nomic-embed-text
     ```
 
 ## Usage
